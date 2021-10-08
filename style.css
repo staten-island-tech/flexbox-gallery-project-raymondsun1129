@@ -4,24 +4,19 @@ html, body, *{
     box-sizing: border-box;
     font-size: 62.5%;
 }
-
-
-
 .title{
     text-align: center;
     font-size: 8rem;
     margin-top: 40px;
     font-family: 'Mate SC', serif;
-    margin: 50px 680px;
+    margin: 35px 680px;
     background-color: #67CA91;
     padding: 10px 20px;
-    
 }
 body{
     background-color: #BCFCD7;
     
 }
-
 .gallery{
     display: flex;
     flex-direction: row;
@@ -29,7 +24,7 @@ body{
     justify-content: space-around;
     font-family: 'Mate SC', serif;
     
-    
+
 }
 .img{
     margin-top: 50px;
@@ -37,7 +32,6 @@ body{
     
     font-family: 'Mate SC', serif;
     box-shadow: 2px 2px 6px;
-    
 }
 .img-husky{
     margin-top: 50px;
@@ -45,9 +39,7 @@ body{
     
     
     font-family: 'Mate SC', serif;
-    
 }
-
 img:hover{
     opacity: 5;
     transition: .9s;
