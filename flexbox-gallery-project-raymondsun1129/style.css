@@ -5,13 +5,12 @@ html, body, *{
     font-size: 62.5%;
 }
 
-
-
 .title{
     text-align: center;
     font-size: 8rem;
     margin-top: 40px;
-    font-family: 'Mate SC', serif;
+    font-family: 'Baloo 2', cursive;
+
     margin: 50px 680px;
     background-color: #67CA91;
     padding: 10px 20px;
@@ -27,29 +26,48 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-family: 'Mate SC', serif;
-    
-    
+    font-family: 'Baloo 2', cursive;
 }
 .img{
     margin-top: 50px;
     border: 5px solid #67CA91;
     
-    font-family: 'Mate SC', serif;
-    box-shadow: 2px 2px 6px;
+    font-family: 'Baloo 2', cursive;
     
+    box-shadow: 2px 2px 6px;
+    background-color: #67CA91;
+    
+}
+.myimg{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    font-family: 'Baloo 2', cursive;
+    
+    
+
+}
+.myhusky{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    font-family: 'Baloo 2', cursive;
 }
 .img-husky{
     margin-top: 50px;
     border: 5px solid white;
-    
-    
-    font-family: 'Mate SC', serif;
+    object-fit: cover;
+    box-shadow: 2px 2px 6px;
+    font-family: 'Baloo 2', cursive;
+    background-color: white;
     
 }
-
+.text{
+    font-size: 6rem;
+    text-align: center;
+    
+}
 img:hover{
     opacity: 5;
     transition: .9s;
 }
-
