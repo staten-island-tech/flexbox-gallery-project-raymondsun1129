@@ -39,8 +39,8 @@ body{
     
 }
 .post-image{
-    width: 500px;
-    height: 400px;
+    width: 50rem;
+    height: 40rem;
     object-fit: cover;
     font-family: 'Baloo 2', cursive;
     
@@ -48,8 +48,8 @@ body{
 
 }
 .myhusky{
-    width: 500px;
-    height: 400px;
+    width: 50rem;
+    height: 40rem;
     object-fit: cover;
     font-family: 'Baloo 2', cursive;
 }
@@ -69,11 +69,4 @@ body{
 
 
 
-.post-image {
-    transform-style: preserve-3d;
-  }
 
-
-  post-image:hover{
-    opacity:1;
-  }
