@@ -28,7 +28,7 @@ body{
     justify-content: space-around;
     font-family: 'Baloo 2', cursive;
 }
-.img{
+.post-class{
     margin-top: 50px;
     border: 5px solid #67CA91;
     
@@ -38,7 +38,7 @@ body{
     background-color: #67CA91;
     
 }
-.myimg{
+.post-image{
     width: 500px;
     height: 400px;
     object-fit: cover;
@@ -65,9 +65,15 @@ body{
 .text{
     font-size: 6rem;
     text-align: center;
-    
 }
-img:hover{
-    opacity: 5;
-    transition: .9s;
-}
+
+
+
+.post-image {
+    transform-style: preserve-3d;
+  }
+
+
+  post-image:hover{
+    opacity:1;
+  }
