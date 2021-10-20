@@ -1,0 +1,75 @@
+html, body, *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.title{
+    text-align: center;
+    font-size: 8rem;
+    margin-top: 40px;
+    font-family: 'Baloo 2', cursive;
+
+    margin: 50px 680px;
+    background-color: #67CA91;
+    padding: 10px 20px;
+    
+}
+body{
+    background-color: #BCFCD7;
+    
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Baloo 2', cursive;
+}
+.post-class{
+    margin-top: 50px;
+    border: 5px solid #67CA91;
+    
+    font-family: 'Baloo 2', cursive;
+    
+    box-shadow: 2px 2px 6px;
+    background-color: #67CA91;
+    
+}
+.post-image{
+    width: 50rem;
+    height: 40rem;
+    object-fit: cover;
+    font-family: 'Baloo 2', cursive;
+}
+.myhusky{
+    width: 50rem;
+    height: 40rem;
+    object-fit: cover;
+    font-family: 'Baloo 2', cursive;
+}
+.img-husky{
+    margin-top: 50px;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow: 2px 2px 6px;
+    font-family: 'Baloo 2', cursive;
+    background-color: white;
+    
+}
+.text{
+    font-size: 6rem;
+    text-align: center;
+}
+
+
+.post-class:hover{
+    transform: scale(1.1);
+    outline: 0.5rem solid #67CA91ed;
+    z-index: 4;
+    scrollbar-highlight-color: red;
+}
+
+
