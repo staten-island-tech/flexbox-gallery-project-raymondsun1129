@@ -10,11 +10,23 @@ html, body, *{
     font-size: 8rem;
     margin-top: 40px;
     font-family: 'Baloo 2', cursive;
-
-    margin: 50px 680px;
-    background-color: #67CA91;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
+    /* /*background-color: green;
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #2BB966 50%);
+    background-size: auto; */
+    /* color: #222;
+    transition: background-position 0.3s ease-out;  */
     
+    
+}
+
+.title:hover {
+	border: 3px dotted #67CA91;
+	color: #3a7999;
+	background: rgba(0,0,0,0);
+}
+.title:hover{
+    background-position: -99.99% 0;
 }
 body{
     background-color: #BCFCD7;
@@ -28,8 +40,66 @@ body{
     justify-content: space-around;
     font-family: 'Baloo 2', cursive;
 }
-.img{
-    margin-top: 50px;
+.post-class{
+    margin-top: 5rem;
+    border: 0.5rem solid #67CA91;
+    
+    font-family: 'Baloo 2', cursive;
+    
+    box-shadow: 0.2rem 0.2rem 0.6rem;
+    background-color: #67CA91;
+    
+}
+.post-image{
+    width: 50rem;
+    height: 40rem;
+    object-fit: cover;
+    font-family: 'Baloo 2', cursive;
+}
+.myhusky{
+    width: 50rem;
+    height: 40rem;
+    object-fit: cover;
+    font-family: 'Baloo 2', cursive;
+}
+.img-husky{
+    margin-top: 5rem;
+    border: 0.5rem solid white;
+    object-fit: cover;
+    box-shadow: 0.2rem 0.2rem 0.6rem;
+    font-family: 'Baloo 2', cursive;
+    background-color: white;
+    
+}
+.text{
+    font-size: 6rem;
+    text-align: center;
+}
+
+
+.img-husky:hover{
+    transform: scale(1.1);
+    
+}
+
+  
+  .post-class:hover {
+    border: 5px dotted #2BB966;
+    
+    background: #2BB966;
+  }
+
+
+  .text{
+    opacity:1;
+  }
+  .text:hover{
+    opacity:0.5;
+  }
+
+
+.doberclass{
+    margin-top: 5rem;
     border: 5px solid #67CA91;
     
     font-family: 'Baloo 2', cursive;
@@ -38,36 +108,141 @@ body{
     background-color: #67CA91;
     
 }
-.myimg{
-    width: 500px;
-    height: 400px;
+.dober{
+    width: 50rem;
+    height: 40rem;
     object-fit: cover;
     font-family: 'Baloo 2', cursive;
-    
-    
+}
+.doberclass:hover {
+    transform: skew(-10deg);
+  }
+
+.animation{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    animation: test 2s infinite;
+}
+@keyframes test{
+    0%{
+        left: 35%;
+        bottom: 10%;
+        background-color: #67CA91;
+    }
+    25%{
+        left: 64%;
+        bottom: 10%;
+        background-color: #fff;
+    }
+    50%{
+        left: 64%;
+        bottom: -49%;
+        background-color: #67CA91;
+    }
+    75%{
+        left: 35%;
+        bottom: -49%;
+        background-color: #fff;
+    }
+    100%{
+        left: 35%;
+        bottom: 10%;
+        background-color: #67CA91;
+    }
 
 }
-.myhusky{
-    width: 500px;
-    height: 400px;
-    object-fit: cover;
-    font-family: 'Baloo 2', cursive;
+
+@media screen and (max-width: 780px){
+
+    .title{
+        text-align: center;
+        margin-right: 2px;
+        font-size: 10rem;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+    .post-image{
+            width: 45rem;
+            height: 35rem;
+        }
+    .post-class{
+            margin-top: 5rem;
+            margin-right: 30%;
+            margin-left: 30%;
+        }
+    .text{
+            font-size: 4rem;
+            text-align: center;
+        }
+    .doberclass{
+        margin-top: 5rem;
+        margin-right: 30%;
+        margin-left: 30%;
+            }
+    .dober{
+            width: 45rem;
+            height: 35rem;
+        }
+    .myhusky{
+        width: 45rem;
+        height: 35rem;
+        }
+    .img-husky{
+        margin-top: 5rem;
+        margin-right: 30%;
+        margin-left: 30%;
+    }
+    body{
+        background-color: #bee0cc;
+    }
+
+@media screen and (max-width: 390px){
+
+    .title{
+        text-align: center;
+        margin-left: 50px;
+        white-space: nowrap;
+        font-size: 5rem;
+        margin-top: 10px;
+        margin-bottom: -10px;
 }
-.img-husky{
-    margin-top: 50px;
-    border: 5px solid white;
-    object-fit: cover;
-    box-shadow: 2px 2px 6px;
-    font-family: 'Baloo 2', cursive;
-    background-color: white;
-    
+    .post-image{
+        width: 30rem;
+        height: 20rem;
+        object-fit: scale-down;
+        display: flex;
 }
-.text{
-    font-size: 6rem;
-    text-align: center;
-    
+    .post-class{
+        margin-top: 5rem;
+        margin-right: 30%;
+        margin-left: 30%;
+        }
+    .text{
+        font-size: 4rem;
+        text-align: center;
+        }
+    .doberclass{
+        margin-top: 5rem;
+        margin-right: 30%;
+        margin-left: 30%;   
+        }
+    .dober{
+        width: 30rem;
+        height: 20rem;
+            }
+    .myhusky{
+        width: 30rem;
+        height: 20rem;
+        object-fit: scale-down;
+        display: flex;
+        }
+    .img-husky{
+        margin-top: 5rem;
+        margin-right: 30%;
+        margin-left: 30%;
+    }
+    body{
+        background-color: #1b8848;
 }
-img:hover{
-    opacity: 5;
-    transition: .9s;
-}
+
